@@ -3,4 +3,5 @@ def Factorial(n):
         return 1
     else:
         return n*Factorial(n-1);
+print(Factorial(6))
 print(Factorial(5))
